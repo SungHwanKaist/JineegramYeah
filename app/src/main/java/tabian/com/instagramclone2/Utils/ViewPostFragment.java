@@ -237,6 +237,7 @@ public class ViewPostFragment extends Fragment {
                                 mLikedByCurrentUser = false;
                             }
 
+
                             int length = splitUsers.length;
                             if(length == 1){
                                 mLikesString = "Liked by " + splitUsers[0];

@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "244991489932",
-    "firebase_url": "https://instagramclone-9a4c7.firebaseio.com",
-    "project_id": "instagramclone-9a4c7",
-    "storage_bucket": "instagramclone-9a4c7.appspot.com"
+    "project_number": "509048425022",
+    "firebase_url": "https://jineegramreal.firebaseio.com",
+    "project_id": "jineegramreal",
+    "storage_bucket": "jineegramreal.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:244991489932:android:d49c650ed5c2c559",
+        "mobilesdk_app_id": "1:509048425022:android:d49c650ed5c2c559",
         "android_client_info": {
           "package_name": "tabian.com.instagramclone2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "244991489932-kc2clq2dusou26da87beno1v0gguo30t.apps.googleusercontent.com",
+          "client_id": "509048425022-2si2t9si8ef2phsadcml4dos42c7h2dt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyClTJPAKL3_uZMdlCj9KgpNnDDUz_3q98I"
+          "current_key": "AIzaSyBgaHB_5FzazE7S530AgXu8Igtcf1HweLw"
         }
       ],
       "services": {

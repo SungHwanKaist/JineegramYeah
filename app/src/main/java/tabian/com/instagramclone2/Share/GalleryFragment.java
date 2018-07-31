@@ -82,16 +82,14 @@ public class GalleryFragment extends Fragment {
             public void onClick(View v) {
                 Log.d(TAG, "onClick: navigating to the final share screen.");
 
-                if(isRootTask()){
-                    Intent intent = new Intent(getActivity(), NextActivity.class);
-                    intent.putExtra(getString(R.string.selected_image), mSelectedImage);
-                    startActivity(intent);
-                }else{
-                    Intent intent = new Intent(getActivity(), AccountSettingsActivity.class);
-                    intent.putExtra(getString(R.string.selected_image), mSelectedImage);
-                    intent.putExtra(getString(R.string.return_to_fragment), getString(R.string.edit_profile_fragment));
-                    startActivity(intent);
-                    getActivity().finish();
+                Intent intent1 = new Intent(getActivity(), NextActivity.class);
+                intent1.putExtra(getString(R.string.selected_image), mSelectedImage);
+                startActivity(intent1);
+                if(! isRootTask()){
+                    Intent intent2 = new Intent(getActivity(), AccountSettingsActivity.class);
+                    intent2.putExtra(getString(R.string.selected_image), mSelectedImage);
+                    intent2.putExtra(getString(R.string.return_to_fragment), getString(R.string.edit_profile_fragment));
+                    startActivity(intent2);
                 }
 
             }

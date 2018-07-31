@@ -405,6 +405,7 @@ public class FirebaseMethods {
         return sdf.format(new Date());
     }
 
+
     private void addPhotoToDatabase(String caption, String url){
         Log.d(TAG, "addPhotoToDatabase: adding photo to database.");
 
